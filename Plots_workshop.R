@@ -6,8 +6,7 @@ plot(x=iris$Sepal.Length,y=iris$Sepal.Width)
 # histogram
 hist(iris$Sepal.Length)
 
-#boxplots
-boxplot(iris$Sepal.Length~iris$Species)
+
 
 # dotcharts
 dotchart(iris$Sepal.Width)
@@ -30,3 +29,5 @@ plot(iris$Sepal.Length,iris$Sepal.Width,col=iris$Species)
 
 # bar plots
 barplot(iris$Sepal.Length,iris$Sepal.Width)
+
+
